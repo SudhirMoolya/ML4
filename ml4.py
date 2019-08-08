@@ -1,11 +1,11 @@
 import numpy as np
 import pandas as pd
 
-x_mse = [15,12,8,8,7,7,7,6,5,3]
-y_ese = [10,25,17,11,13,17,20,13,9,15]
+Physics_score = [15,12,8,8,7,7,7,6,5,3]
+History_score = [10,25,17,11,13,17,20,13,9,15]
 
-x = pd.Series(x_mse)
-y = pd.Series(y_ese)
+x = pd.Series(Physics_score)
+y = pd.Series(History_score)
 
 r = x.cov(y)/(x.std()*y.std())
 
