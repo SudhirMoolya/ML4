@@ -13,7 +13,4 @@ beta1 = (r*y.std())/x.std()
 
 print("The slope of line of regressoin is:","%.3f"%beta1)
 
-----------------------------------------------------------------------------------------------------------------
 
-OUTPUT:
-The slope of line of regressoin is: 0.208
